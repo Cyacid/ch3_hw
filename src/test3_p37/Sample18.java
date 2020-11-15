@@ -1,0 +1,19 @@
+package test3_p37;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Sample18 {
+	public static void main(String[] args) throws IOException {
+		System.out.println("請輸入英文字母");
+		
+		BufferedReader br1 = new BufferedReader(new InputStreamReader(System.in));
+		String str = br1.readLine();
+		String stru = str.toUpperCase();
+		String strl = str.toLowerCase();
+		
+		System.out.println("轉換為大寫時為:"+stru);
+		System.out.println("轉換為小寫時為:"+strl);
+		
+	}
+}
